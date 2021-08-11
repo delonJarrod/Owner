@@ -20,7 +20,7 @@ function CV() {
                       <h1 className="mt-5 pt-5 text-center">Contact</h1>
                     </div>
                     <div>
-                      <h4>
+                      <h5>
                         <i>
                           <BsPhone />
                         </i>
@@ -29,9 +29,9 @@ function CV() {
                           {" "}
                           071 196 8195
                         </a>
-                      </h4>
+                      </h5>
 
-                      <h4>
+                      <h5>
                         <i>
                           <BsEnvelope />
                         </i>
@@ -41,9 +41,9 @@ function CV() {
                           className={classes.contact}
                         >
                           {" "}
-                          delonjarrod1307@gmail.com
+                          Email Me here
                         </a>
-                      </h4>
+                      </h5>
                     </div>
                   </div>
                 </Card>

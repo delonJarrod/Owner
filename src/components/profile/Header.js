@@ -17,6 +17,8 @@ function Header() {
                 width="300px"
                 height="95%"
                 roundedCircle
+                className={classes.selectedImg}
+                draggable="false"
               />
             </Col>
           </Row>

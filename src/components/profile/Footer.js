@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className={classes.footer}>
       <div className={classes.lowerFooter}>
-        <div className="d-flex">
+        <div className="d-flex border-top">
           <Container fluid>
             <Row>
               <Col>
