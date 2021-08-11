@@ -1,0 +1,61 @@
+.background {
+  position: "absolute";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+}
+.textWhite {
+  color: white;
+}
+
+.skills:hover:after,
+.skills:hover:before {
+  box-sizing: border-box;
+}
+
+.progress {
+}
+.progress:first-child {
+  margin-top: 0;
+}
+.progress {
+  margin-top: 25px;
+  position: relative;
+}
+.progress:after,
+.progress:before {
+  box-sizing: border-box;
+}
+
+.span {
+  position: absolute;
+  top: 0;
+  right: 1.5%;
+  font-size: 12px;
+}
+
+.list {
+  display: inline;
+}
+
+.trigger {
+  display: block;
+  font-weight: 700;
+  text-decoration: none;
+  color: grey;
+  position: relative;
+  border: 1px solid white;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.is-open {
+  background: rgba(0, 0, 0, 0.932);
+}
+
+.Collapsible__trigger .is-open {
+  background: rgba(0, 0, 0, 0.932);
+}

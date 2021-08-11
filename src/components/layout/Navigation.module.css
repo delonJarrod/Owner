@@ -1,0 +1,64 @@
+.logo {
+  width: fit-content;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  margin-right: 3rem;
+  text-decoration-color: white;
+}
+
+.header {
+  text-decoration: white;
+  font-size: 20px;
+  text-decoration-color: white;
+  margin-left: 3rem;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.newAlign {
+  text-decoration: white;
+  font-size: 1rem;
+  text-decoration-color: white;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: white;
+}
+
+.badge {
+  background-color: white;
+  color: white;
+  border-radius: 12px;
+  padding: 0 1rem;
+  margin-left: 0.5rem;
+}
+.responsive {
+  width: auto;
+  height: auto;
+}
+.navbar {
+  background-color: #000000;
+  text-decoration-color: white;
+}
+.header:hover {
+  background-color: #101522; /*will change background-color of element on hover */
+  color: white; /*will change color of text within the element on hover */
+}
+
+.headerImg {
+  width: 100%;
+  background-image: url("../img/darkHeader.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

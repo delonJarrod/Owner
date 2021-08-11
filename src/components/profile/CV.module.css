@@ -1,0 +1,58 @@
+.section {
+  background-color: white;
+}
+.contact {
+  color: black;
+  text-decoration: none;
+}
+
+.contact:hover {
+  color: #1079d4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card {
+  width: "30%";
+}
+
+.facebook {
+  margin-right: 12%;
+  padding-left: 13%;
+  color: black;
+  text-decoration: none;
+}
+
+.facebook:hover {
+  color: #1079d4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.instagram {
+  margin-right: 12%;
+  color: black;
+  text-decoration: none;
+}
+
+.instagram:hover {
+  color: #da5555;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.twitter {
+  margin-right: 12%;
+  color: black;
+  text-decoration: none;
+}
+
+.twitter:hover {
+  color: #0060b6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.socials {
+  margin: auto;
+}
